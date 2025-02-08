@@ -3,8 +3,8 @@ services:
   rabbitmq:
     image: rabbitmq:3-management
     ports:
-      - "5672:5672"      # AMQP protocol port
-      - "15672:15672"    # RabbitMQ management UI
+      - "5672:5672"
+      - "15672:15672"
     environment:
       RABBITMQ_DEFAULT_USER: guest
       RABBITMQ_DEFAULT_PASS: guest
@@ -14,11 +14,11 @@ services:
     ports:
       - "3001:3001"
     environment:
-      RABBITMQ_URL: amqp://rabbitmq
+      RABBITMQ_URL: "amqp://rabbitmq"
 
   service-b:
     build: ./service-b
     ports:
       - "3002:3002"
     environment:
-      RABBITMQ_URL: amqp://rabbitmq
+      RABBITMQ_URL: "amqp://rabbitmq"
