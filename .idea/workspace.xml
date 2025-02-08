@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad98a961-e203-473e-a34d-71fb66cf316a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ad98a961-e203-473e-a34d-71fb66cf316a" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +96,24 @@
       <option name="presentableId" value="Default" />
       <updated>1739045535248</updated>
       <workItem from="1739045537664" duration="981000" />
-      <workItem from="1739046552833" duration="2621000" />
+      <workItem from="1739046552833" duration="2719000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1739049296559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739049296559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
